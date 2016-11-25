@@ -1,0 +1,28 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.side {
+  border-right: 1px solid black;
+  height: 92vh;
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.body table {
+  width: 100%;
+  // border-collapse: collapse;
+}
