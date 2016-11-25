@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
-  def home
+  def main
     a = Person.new('Mitchell Klich', 21, 'Chicago', 'Defense')
     b = Person.new('Matthew Klich', 12, 'Chicago', 'Defense')
     c = Person.new('Ruben Lugo', 23, 'Chicago', 'N/A')
@@ -18,5 +18,8 @@ class StaticController < ApplicationController
       @position = position
     end
   end
-  
+
+  def home
+  end
+
 end

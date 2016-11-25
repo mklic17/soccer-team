@@ -1,0 +1,41 @@
+<!-- <h1>Static#home</h1>
+<p>Find me in app/views/static/home.html.erb</p> -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-2 side">
+      <h3>Teams</h3>
+      <ul>
+        <li><a href="#">United States</a></li>
+        <li><a href="#">Manchester</a></li>
+        <li><a href="#">Chelsea</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-10 body">
+      <center><h2>United States</h2></center>
+      <br>
+      <table>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Number</th>
+          <th>From</th>
+          <th>Position</th>
+        </tr>
+        <% count = 1 %>
+        <% @obj.each do |a| %>
+
+        <tr>
+          <td><%= count %></td>
+          <td><%= a.name %></td>
+          <td><%= a.number %></td>
+          <td><%= a.from %></td>
+          <td><%= a.position %></td>
+        </tr>
+        <% count +=1 %>
+        <% end %>
+
+      </table>
+    </div>
+  </div>
+</div>
