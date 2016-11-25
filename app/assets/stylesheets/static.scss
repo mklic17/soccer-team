@@ -1,3 +1,57 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.side {
+  border-right: 1px solid black;
+  height: 92vh;
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.body table {
+  width: 100%;
+  // border-collapse: collapse;
+}
+
+
+.mainView {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 1px solid black;
+
+  img {
+    padding-top: 25px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  h3 {
+    text-align: center
+  }
+
+
+}
