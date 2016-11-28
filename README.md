@@ -11,7 +11,7 @@ This application is for anyone who wants to try to manage their soccer team and 
 ## Technical Overview
 
 * [Ruby on Rails](http://rubyonrails.org/)
-* [Foundation](http://foundation.zurb.com/)
+* [Bootstrap](http://getbootstrap.com/)
 * [SQLite](https://sqlite.org/)
 * [JavaScript(jQuery)](https://jquery.com/)
 
